@@ -16,6 +16,9 @@ module.exports = {
         screens: {
           '2xl': '1320px',
         },
+        backgroundImage: {
+          'terang': "url('dist/img/homepage-white.png')",
+        },
       },
     },
   plugins: [],
