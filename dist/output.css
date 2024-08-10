@@ -788,12 +788,12 @@ video {
   margin-top: 0.75rem;
 }
 
-.mt-5 {
-  margin-top: 1.25rem;
-}
-
 .mt-4 {
   margin-top: 1rem;
+}
+
+.mt-5 {
+  margin-top: 1.25rem;
 }
 
 .block {
@@ -1151,10 +1151,6 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-\[center_left_1\] {
-  background-color: center left 1;
-}
-
 .bg-\[url\(\'\/dist\/img\/grid1\.jpg\'\)\] {
   background-image: url('/dist/img/grid1.jpg');
 }
@@ -1163,12 +1159,12 @@ video {
   background-image: url('/dist/img/grid2.jpg');
 }
 
-.bg-\[url\(\'\/dist\/img\/intan1\.jpg\'\)\] {
-  background-image: url('/dist/img/intan1.jpg');
-}
-
 .bg-\[url\(\'\/dist\/img\/intan2\.jpg\'\)\] {
   background-image: url('/dist/img/intan2.jpg');
+}
+
+.bg-\[url\(\'\/dist\/img\/intan3\.jpg\'\)\] {
+  background-image: url('/dist/img/intan3.jpg');
 }
 
 .bg-\[url\(\'\/dist\/img\/kuliah\.jpg\'\)\] {
@@ -1191,8 +1187,12 @@ video {
   background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
 }
 
-.bg-\[url\(\'\/dist\/img\/intan3\.jpg\'\)\] {
-  background-image: url('/dist/img/intan3.jpg');
+.bg-\[url\(\'\/dist\/img\/jak\.jpg\'\)\] {
+  background-image: url('/dist/img/jak.jpg');
+}
+
+.bg-\[url\(\'\/dist\/img\/juara\.jpg\'\)\] {
+  background-image: url('/dist/img/juara.jpg');
 }
 
 .from-blue-300 {
@@ -1239,20 +1239,12 @@ video {
   background-size: cover;
 }
 
-.bg-center {
-  background-position: center;
-}
-
-.bg-\[center\] {
-  background-position: center;
-}
-
-.bg-\[center_left_1rem\] {
-  background-position: center left 1rem;
-}
-
 .bg-\[center_left_2rem\] {
   background-position: center left 2rem;
+}
+
+.bg-center {
+  background-position: center;
 }
 
 .bg-no-repeat {
@@ -1779,8 +1771,10 @@ body {
   background-color: rgb(30 41 59 / var(--tw-bg-opacity));
 }
 
-.dark\:bg-gradient-to-b:is(.dark *) {
-  background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
+.dark\:from-slate-600:is(.dark *) {
+  --tw-gradient-from: #475569 var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(71 85 105 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
 .dark\:from-slate-700:is(.dark *) {
@@ -1795,30 +1789,6 @@ body {
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
-.dark\:from-slate-600:is(.dark *) {
-  --tw-gradient-from: #475569 var(--tw-gradient-from-position);
-  --tw-gradient-to: rgb(71 85 105 / 0) var(--tw-gradient-to-position);
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
-}
-
-.dark\:from-white:is(.dark *) {
-  --tw-gradient-from: #fff var(--tw-gradient-from-position);
-  --tw-gradient-to: rgb(255 255 255 / 0) var(--tw-gradient-to-position);
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
-}
-
-.dark\:from-slate-400:is(.dark *) {
-  --tw-gradient-from: #94a3b8 var(--tw-gradient-from-position);
-  --tw-gradient-to: rgb(148 163 184 / 0) var(--tw-gradient-to-position);
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
-}
-
-.dark\:from-slate-800:is(.dark *) {
-  --tw-gradient-from: #1e293b var(--tw-gradient-from-position);
-  --tw-gradient-to: rgb(30 41 59 / 0) var(--tw-gradient-to-position);
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
-}
-
 .dark\:via-slate-800:is(.dark *) {
   --tw-gradient-to: rgb(30 41 59 / 0)  var(--tw-gradient-to-position);
   --tw-gradient-stops: var(--tw-gradient-from), #1e293b var(--tw-gradient-via-position), var(--tw-gradient-to);
@@ -1828,20 +1798,16 @@ body {
   --tw-gradient-to: #64748b var(--tw-gradient-to-position);
 }
 
+.dark\:to-slate-600:is(.dark *) {
+  --tw-gradient-to: #475569 var(--tw-gradient-to-position);
+}
+
 .dark\:to-slate-700:is(.dark *) {
   --tw-gradient-to: #334155 var(--tw-gradient-to-position);
 }
 
 .dark\:to-slate-900:is(.dark *) {
   --tw-gradient-to: #0f172a var(--tw-gradient-to-position);
-}
-
-.dark\:to-slate-600:is(.dark *) {
-  --tw-gradient-to: #475569 var(--tw-gradient-to-position);
-}
-
-.dark\:to-slate-400:is(.dark *) {
-  --tw-gradient-to: #94a3b8 var(--tw-gradient-to-position);
 }
 
 .dark\:fill-white:is(.dark *) {
